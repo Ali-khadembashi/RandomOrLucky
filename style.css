@@ -1,0 +1,157 @@
+html {
+
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    width: 100%;
+    font-size: 1.6em;
+    font-family: sans-serif;
+}
+
+/* the main body including form */
+main {
+    position: absolute;
+    border-radius: 2rem;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 70vw;
+    min-height: 80vh;
+
+    min-width: 500px;
+    background-color: rgb(124, 179, 99);
+    flex-direction: column;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+form {
+    padding: 1rem;
+}
+
+input {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 0.2rem;
+    margin-right: 1rem;
+}
+
+input:focus {
+    outline: none !important;
+    border: solid 0.2rem rgb(0, 56, 47);
+}
+
+.btn {
+    border: solid 0.1rem black;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 0.7rem;
+    background-color: rgb(255, 81, 0);
+    font-size: 1.7rem;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(255, 134, 78);
+}
+
+
+/* tables/list */
+ul {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    background-color: rgb(255, 208, 0);
+    width: 60%;
+    height: 3rem;
+    border-bottom: solid 0.4rem rgb(252, 252, 252);
+    margin-bottom: 1rem;
+    border-radius: 0.1rem;
+
+}
+
+.remove {
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    height: inherit;
+    width: 2.5rem;
+    background-color: rgb(255, 61, 61);
+    border-bottom: solid 0.4rem rgb(252, 252, 252);
+}
+
+.remove:hover {
+    background-color: rgb(204, 17, 17);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* modal section */
+.modal {
+
+
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.modal-body {
+    position: absolute;
+    border-radius: 2rem;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    width: 60vw;
+    height: 70vh;
+    min-height: 300px;
+    background-color: aqua;
+    flex-direction: column;
+    padding: 1rem;
+    display: flex;
+}
+
+.win-name {
+    margin: 0 auto;
+    position: relative;
+
+
+    font-size: 2rem;
+}
+
+.close-btn {
+    margin-right: 0;
+    margin-left: auto;
+    padding: 1rem;
+    font-size: 1rem;
+}
